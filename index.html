@@ -7,11 +7,11 @@
     <title>Música para todos - Spotify</title>
     <link rel="icon" href="./assets/images/favicon.png">
 
-    <!-- Estilo customizado -->
-    <link rel="stylesheet" href="./assets/css/index.css">
-
     <!-- Bootstrap 5.3.3 -->
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" href="./assets/css/index.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -22,7 +22,7 @@
 <body>
 
     <header> <!-- Inicio Cabeçalho -->
-        <nav class="navbar navbar-expand-md bg-danger fixed-top">
+        <nav class="navbar navbar-expand-md fixed-top navbar-transparente">
             <div class="container">
                 <a href="index.html" class="navbar-brand">
                     <img src="./assets/images/spotify.svg" alt="" width="150px">
@@ -41,9 +41,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="">Baixar</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">|</a>
-                        </li>
+                        <li class="nav-item divisor"></li>
                         <li class="nav-item">
                             <a class="nav-link" href="">Inscrever-se</a>
                         </li>
@@ -55,7 +53,180 @@
             </div>
         </nav>
     </header> <!-- Fim Cabeçalho -->
-    conteudo
+
+    <section id="home" class="d-flex"> <!-- Inicio Home -->
+        <div class="container align-self-center">
+            <div class="row">
+                <div class="col-md-12 capa">
+
+                    <h1 class="display-1">Música para todos</h1>
+                    <a href="" class="btn btn-lg btn-custom btn-roxo">
+                        Aproveite o Spotify Free
+                    </a>
+                    <a href="" class="btn btn-lg btn-custom btn-branco">
+                        Obter Spotify Premium
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section> <!-- Fim Home -->
+
+    <section id="servicos" class="caixa"> <!-- Inicio Serviços -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                            <img src="./assets/images/img1.jpg" class="img-fluid d-none d-md-block" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./assets/images/img2.jpg" class="img-fluid d-none d-md-block" alt="">
+                        </div>
+                    </div>
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                            <img src="./assets/images/img3.jpg" class="img-fluid d-none d-md-block" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./assets/images/img4.jpg" class="img-fluid d-none d-md-block" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>O que o Spotify tem?</h2>
+
+                    <h3>Músicas</h3>
+                    <p>
+                        O Spotify tem milhões de músicas. Escute seus sons favoritos, descruba novas músicas e reúna
+                        seus favoritos em um só lugar.
+                    </p>
+
+                    <h3>Playlists</h3>
+                    <p>
+                        No Spotify você encontra playlists para cada momento. Todas feitas por fanáticos e especialistas
+                        da música.
+                    </p>
+
+                    <h3>Novos lançamentos</h3>
+                    <p>
+                        Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Fim Serviços -->
+
+    <section id="recursos" class="caixa"> <!-- Inicio recursos -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Fácil</h1>
+
+                    <h3>Buscar</h3>
+                    <p>
+                        Já sabe o que quer ouvir? Basta buscar e apertar play.
+                    </p>
+
+                    <h3>Navegar</h3>
+                    <p>
+                        Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu
+                        momento.
+                    </p>
+
+                    <h3>Descobrir</h3>
+                    <p>
+                        Curta músicas novas toda segunda-feira com uma playlist personalizada para você. Ou relaxe e
+                        curta uma das rádios.
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row rotacionar">
+                        <div class="col-md-6">
+                            <img src="./assets/images/iphone1.png" class="img-fluid d-none d-md-block" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./assets/images/iphone2.png" alt="" class="img-fluid d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Fim recursos -->
+
+    <footer> <!-- Inicio footer -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="./assets/images/spotify.svg" width="142" alt="">
+                </div>
+                <div class="col-md-2">
+                    <h4>company</h4>
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="">Empregos</a>
+                        </li>
+                        <li>
+                            <a href="">imprensa</a>
+                        </li>
+                        <li>
+                            <a href="">Novidades</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>comunidades</h4>
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="">Comunidades</a>
+                        </li>
+                        <li>
+                            <a href="">Artistas</a>
+                        </li>
+                        <li>
+                            <a href="">Desenvolvedores</a>
+                        </li>
+                        <li>
+                            <a href="">Marcas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>link úteis</h4>
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="">Links úteis</a>
+                        </li>
+                        <li>
+                            <a href="">Ajuda</a>
+                        </li>
+                        <li>
+                            <a href="">Presentes</a>
+                        </li>
+                        <li>
+                            <a href="">Player da web</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <a href=""> <img src="./assets/images/facebook.png" alt=""> </a>
+                        </li>
+                        <li>
+                            <a href=""> <img src="./assets/images/twitter.png" alt=""> </a>
+                        </li>
+                        <li>
+                            <a href=""> <img src="./assets/images/instagram.png" alt=""> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> <!-- Fim footer -->
 
     <!-- Optional JavaScript -->
     <!-- Bootstrap JS -->
